@@ -2,7 +2,7 @@
 
 # Tower of hanoi simulation
 
-Step-by-step visualization of the process of solution of tower-of-hanoi problem
+Step-by-step visualization of the process of solving of tower-of-hanoi problem
 
 ## Installing / Getting started
 
@@ -27,7 +27,7 @@ Below is a list of available options
 
 #### disk_num
 Type: `int`  
-Default: `8`
+Default: `5`
 
 Number of discs
 
