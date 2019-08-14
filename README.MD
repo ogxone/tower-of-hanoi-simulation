@@ -33,5 +33,5 @@ Number of discs
 
 Example:
 ```bash
-python3 -m runner --disk_num 5  # Will run the simulation with 5 disks
+python3 -m runner --disk_num=5  # Will run the simulation with 5 disks
 ```
