@@ -41,7 +41,7 @@ class EndSimulationError(Exception):
 
 def generate_source_rod(size):
     rod = Rod()
-    for i in range(1, int(size)):
+    for i in range(1, int(size) + 1):
         rod.add_disk(Disk(i))
 
     return rod
@@ -106,8 +106,3 @@ class TowerSimulator:
 
     def is_complete(self):
         return len(self.rods[0]) == 0 and (len(self.rods[1]) == self.dim or len(self.rods[2]) == self.dim)
-
-# if __name__ == '__main__':
-#     rods = [generate_source_rod(8), Rod(), Rod()]
-#
-#     Drawer(TowerSimulator(rods), rods, rods[0].disks).show_simulation()
